@@ -39,7 +39,7 @@ jobs:
         pytest tests.py -v -s
   deploy:
     runs-on: ubuntu-latest
-    needs: [build_tests]
+   
     steps: 
     - name: My Deploy
       run: echo"Application deploy"
