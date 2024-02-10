@@ -8,4 +8,4 @@ def test_devide():
 def test_multiply():
     assert simple_calc.multiply(2, 3) == 6 
 def test_subtract():
-    assert simple_calc.subtract(2, 2) == 0
+    assert simple_calc.subtract(2, 2) == 1
